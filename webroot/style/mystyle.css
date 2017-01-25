@@ -1,39 +1,181 @@
+@font-face {
+	font-family: 'Gobold';
+	src: url('../fonts/Gobold-Regular.otf');
+}
+
+@font-face {
+	font-family: 'Gravity';
+	src: url('../fonts/Gravity-Regular.otf');
+}
 
 body {
-	padding-top: 70px;
 	padding-bottom: 70px;		
-	background-image: url("../img/bg/sunflowers.jpg");
-	background-size: cover;
 }
 
-#page-contents {
-	min-height:500px;
-	font-size:120%;
+#blackOverlay {
+	background-color:#000;
+	opacity:0.0;
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	left: 0;
 }
-.page-part {
-	background-color: rgba(255, 255, 255, 0.7);
-	border-radius:20px;
-	padding-bottom:20px;
+
+.jumbotron {
+	background: url(../img/green-bulb.png);
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	min-height: 960px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: white;
 }
-img.mugshot {
-	width:140px;
-	float:left;
-	margin:10px;
+
+.jumbotron-logo {
+	max-width: 500px;
+	max-height: auto;
 }
+
+.jumbotron-container {
+	margin-top: 0px;
+}
+
+.navbar-default {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+@media (min-width: 768px) {
+        .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+        }
+        
+        .navbar .navbar-collapse {
+            text-align: center;
+        }
+}
+
+.no-bg-color {
+	background-color: transparent !important;
+}
+
+.navbar-bump-down {
+	top: 1em;
+}
+
+.bump-down {
+	top: 15em;
+}
+
+.border-left {
+	border-left: solid rgba(154, 154, 154, 0.44);
+}
+
+.border-right {
+	border-right: solid rgba(154, 154, 154, 0.44);
+}
+
+.border-top {
+	border-top: solid rgba(154, 154, 154, 0.44);
+}
+
+.btn-donate {
+	background-color: #f3f373;
+	margin-top: 10px !important;
+	padding-top: 5px !important;
+	padding-right: 5px !important;
+	padding-bottom: 5px !important;
+	padding-left: 5px !important;
+	font-family: 'Gobold';
+}
+
+.btn-donate:hover {
+	background-color: yellow !important;
+}
+
+.tagline {
+	font-family: 'Gobold';
+	top: 35em;
+	color: black;
+}
+
+.arrow {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -20px;
+	width: 40px;
+	height: 40px;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+	background-size: contain;
+}
+
+.bounce {
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+	40% {-webkit-transform: translateY(-30%px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30%px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30%px);}
+	60% {-o-transform: translateY(-15px);}
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30%px);}
+	60% {transform: translateY(-15px);}
+}
+
+.font-gravity {
+	font-family: 'Gravity';
+}
+
+.font-gobold {
+	font-family: 'Gobold';
+}
+
+.big-lead-line {
+	font-size: 2em;
+	text-align: center;
+}
+
+.lesser-impact {
+	font-size: 1.3em;
+	text-align: center;
+	color: #9a9a9a;
+}
+
+.font-justified {
+	text-align: justify;
+}
+
+hr {
+	border-top: 1px solid #9a9a9a;
+}
+
 h2 {
-	clear:both;
+	font-family: 'Gravity';
 }
-/*#page-part1 {
-	background-image:  url("http://www.sead.org.uk/wp-content/uploads/armed-with-peer-reviewed-sc.jpg");
-}
-#page-part2 {
-	background-image:  url("http://www.sead.org.uk/wp-content/uploads/climate-action_085.jpg");
-}*/
 
 .footer {	
 	margin-top: 25px;
-	border-top: 1px solid #333;
 	padding-top:25px;
-	background-color: rgba(255, 255, 255, 0.7);
-	width:100%;
 }
+

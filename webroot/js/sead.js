@@ -28,3 +28,13 @@ $(function(){
 		$('form#mailing-list').append("<div class='alert alert-success' role='alert'>"+msg+"</div>");
 	}
 });
+
+
+// Making the Jumbotron image darken as you scroll past it
+$(function () {
+    $(window).scroll(function () {
+        var currentScrollTop = $(window).scrollTop();
+        $('#blackOverlay').css('opacity',currentScrollTop/$('#blackOverlay').height());
+
+    });
+});

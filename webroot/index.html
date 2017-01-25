@@ -13,7 +13,7 @@
     <title>SEAD fund: small charity grants from SEAD (Scottish Education and Action for Development)</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -27,147 +27,290 @@
     <![endif]-->    
   </head>
 
-  <body>
+    <BODY>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-      	<!-- logo -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">SEAD Fund</a>
-        </div>        
-        <div id="navbar" class="navbar-collapse collapse">
-        	<a class="navbar-brand" href="https://www.charitycheckout.co.uk/99013867/donate">Donate</a>
-          <form class="navbar-form navbar-right hidden">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+        <div class="container-fluid jumbotron-container">
+            <div class="row">
+                <div class="col-md-12 jumbotron">
+
+                    <!-- The Bouncing Arrow -->
+                    <div class="arrow bounce">
+                    </div>
+
+                    <!-- Putting an invisible mask over the entire jumbotron image in order to darken it on scroll -->
+                    <div id="blackOverlay">
+                    </div>
+                <!-- Menu for Mobile Devices -->
+                <div class="container visible-xs visible-sm">
+                    <div class="navbar navbar-fixed-top">
+                        <div class="btn-group pull-right">
+                            <button type="button" class="btn btn-circle dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="index.html" id="Home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sead.org.uk/" id="SEADhome">SEAD Home</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.charitycheckout.co.uk/99013867/donate" class="btn btn-donate" id="Donate" role="button">Donate</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Mobile Menu Section -->
+
+                <!-- Menu for Normal Screen Devices -->
+                <div class="container hidden-xs hidden-sm col-md-12">
+                    <nav class="navbar navbar-default navbar-bump-down" role="navigation">
+                        <div class="white-bg collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="index.html" class="no-bg-color font-gobold" id="Home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sead.org.uk/" id="SEADhome" class="font-gobold">SEAD Home</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.charitycheckout.co.uk/99013867/donate" class="btn btn-donate" id="Donate" role="button">Donate</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <!-- End of Normal Screen Menu -->
+
+
+                <!-- Cheap vertical space, you can increase or decrease it by changing the em level-->
+                <div class="white-bg col-xs-12" style="height:4em;">
+                </div>
+                <!-- End of cheap vertical space -->
+
+                <!-- Putting in the logo -->
+                <div class="col-md-12">
+                    <div class="col-md-offset-3 col-md-6">
+                        <center>
+                        <img src="img/sead-fund-logo.png" style="max-width: 30em;">
+                        </center>
+                    </div>
+                </div>
+
+                <!-- Putting in the Tagline -->
+                <div class="col-md-12">
+                    <div class="col-md-offset-3 col-md-6 tagline">
+                        <center>
+                        <p class="">
+                            Support Positive Change both Locally and Globally
+                        </p>
+                        </center>
+                    </div>
+                </div>
+
+            <!-- Ending the Jumbotron section -->
             </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div id='page-part1'>
-    <div class="jumbotron">
-      <div class="container">
-        <h1>SEAD Fund</h1>
-        <img src='img/sead-fund-logo.png'>
-        <p>
-The SEAD Fund invites small community groups and individuals to apply for funds to run or kick-start campaign activity that engages with people, has a demonstrable impact, and aims to links local issues with those being experienced by others around the world.
-</p>
-<p>
-More details will be announced soon. We are particularly interested in applications that focus campaign activity on the following areas: women’s rights, young people and their global rights, climate justice, inequality, poverty and health justice.
-</p>
-	<div> <!-- class='center-block text-center' -->
-    	<form id='mailing-list' action='https://sead.soda.sh/forms-form.json' class='form-inline'>
-    		<input type='hidden' name='link' value='back'>
-    		<input type='hidden' name='mlist' value='news,seadfund'>
-    		<div class='form-group'>
-    			<label class='input-lg'>Get email updates</label>  			
-    			<input class='form-control input-lg' type='email' name='email' placeholder='Your Email'>
-    		</div>
-    		<button class="btn btn-primary btn-lg" type='submit'>Sign up</button>
-    	</form>        	
-    </div><!-- ./center-block for form -->
-
-	  </div>
-    </div><!-- ./jumbotron --></div><!-- ./page-part1 -->
-
-    <div class="container" id='page-part2'>
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>What We Fund</h2>
-          <p>	SEAD Fund grants are small grants for individuals or groups.
-          		Grants are typically <em>£100 - £250</em>.
-          		We fund positive action, and campaigning. 
-          		We look for proposals where the grant will have the most impact -- for example, 
-          		helping a new campaign to get started, or funding a specific concrete action for a local community.
-          		We do not normally fund travel, e.g. to visit a conference.
-              We promote social justice, with a current focus on the following areas: 
-              <ul>
-              <li>climate justice</li>
-              <li>inequality</li>
-              <li>poverty</li>
-              <li>women's rights</li>
-              <li>young people and their global rights</li>
-              <li>health justice</li>
-              </ul>
-          </p>
-          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
         </div>
-        <div class="col-md-4">
-          <h2>How to Apply</h2>
+    </div>
+    <!-- Cheap vertical space, you can increase or decrease it by changing the em level-->
+    <div class="white-bg col-xs-12" style="height:2em;">
+    </div>
+    <!-- End of cheap vertical space -->
+    <div class="col-md-12">
+        <div class="col-md-offset-3 col-md-6">
+            <p class="font-gravity big-lead-line">
+                <i>
+                The SEAD Fund invites small community groups and individuals to apply for funds to run or kick-start campaign activity that engages with people, has a demonstrable impact, and aims to links local issues with those being experienced by others around the world.
+                </i>
+            </p>
+        </div>
+    </div>
 
-          <a href='SEAD-fund-application-form.docx'>Application Form</a>
-          <!-- TODO turn this docx form into an online form -->
+    <div class="col-md-12">
+        <hr width="50%" color="black">
+    </div>
 
-          <p>Send an email to <span class='email' name='seadfund' domain='gmail.com' subject='Grant Application for ??'>seadfund (at) gmail.com</span>
-          telling us:
-          <ol>
-          	<li>A very brief single paragraph summary of the project.</li>
-          	<li>Your contact details, and if you're applying for a group, the contact details for your group. 
-          		Please include: name, email, phone, address, and if you have one, then also your website and social media (e.g. Twitter) profile.</li>
-          	<li>How you will spend the money, and the total you require.</li>
-          	<li>If your project involves other funding too, then tell us the details of that.</li>
-          	<li>How you might link-in with community groups as a result of / follow-on from any grant.</li>
-          	<li>The impact you hope this project will have.</li>          	
-          </ol>
-          </p>
-       </div>
-        <div class="col-md-4">
-          <h2>Values</h2>
-          <p>Founded in 1978, SEAD stands for Scottish Education and Action for Development. SEAD has two main aims:
-          	<ul>
-<li>To challenge the causes of poverty, social injustice and environmental degradation.</li>
-<li>To support the community-based movement for positive social change – people collectively tackling challenges which have both a local and global perspective.</li>
-</ul>
-Our work is based on the following principles:
-<ul>
-<li>People-powered solutions</li>
-<li>A rootedness in mutual solidarity</li>
-<li>We can all learn from each other</li>
-</ul>
-          </p>
-          <p><a class="btn btn-default" href="http://www.sead.org.uk/about" role="button">Read more &raquo;</a></p>
-        </div><!-- ./Values -->
-      </div><!-- ./row -->
-	
-	</div><!-- ./page-part2 -->
+    <div class="col-md-12">
+        <div class="col-md-offset-3 col-md-6">
+            <p class="font-gravity lesser-impact">
+                More details will be announced soon. We are particularly interested in applications that focus campaign activity on the following areas: women’s rights, young people and their global rights, climate justice, inequality, poverty and health justice.
+            </p>
+        </div>
+    </div>
 
-      <hr>
-
-	<div class="container">
-      <footer>
-		<div class="linkbuttons">Follow us on 
-			<a href='https://www.facebook.com/ScottishEducationandActionforDevelopment'><i class="fa fa-facebook"></i> Facebook</a> &amp;
-			<a href='https://twitter.com/seadfeed'><i class="fa fa-twitter"></i> Twitter</a>			
-		</div>
-
-        <p>&copy; 2015 <a href='http://www.sead.org.uk/'>SEAD (Scottish Education and Action for Development, a registered charity)</a>. Email: <span class='email' name='seadfund' domain='gmail.com'>seadfund (at) gmail.com</span>
-        	Site design &amp; hosting: <a href='http://sogrow.co.uk'>SoGrow</a>/<a href='http://sodash.com'>SoDash</a>.
-        </p>
-      </footer>
-    </div> <!-- /container -->
+    <!-- Cheap vertical space, you can increase or decrease it by changing the em level-->
+    <div class="white-bg col-xs-12" style="height:5em;">
+    </div>
+    <!-- End of cheap vertical space -->
 
 
-    <!-- Bootstrap core JavaScript
+    <!-- The Signup Form -->
+    <div class="col-md-12">
+        <div class="col-md-offset-3 col-md-6">
+            <center>
+                <form id='mailing-list' action='https://sead.soda.sh/forms-form.json' class='form-inline'>
+                    <input type='hidden' name='link' value='back'>
+                    <input type='hidden' name='mlist' value='news,seadfund'>
+                    <div class='form-group'>
+                        <label class='input-lg font-gravity'>Get email updates</label>  			
+                        <input class='form-control input-lg font-gravity' type='email' name='email' placeholder='Your Email'>
+                    </div>
+                    <button class="btn btn-primary btn-lg font-gravity" type='submit'>Sign up</button>
+                </form>
+            </center>
+        </div>
+    </div>
+
+    <!-- Cheap vertical space, you can increase or decrease it by changing the em level-->
+    <div class="white-bg col-xs-12" style="height:5em;">
+    </div>
+    <!-- End of cheap vertical space -->
+
+
+    <!-- The text blurb sections -->
+    <div class="col-md-12">
+        <div class="col-md-offset-1 col-md-4">
+            <center>
+                <img src="img/funds.svg" style="max-width: 3em;">
+                <h2>What We Fund</h2>
+            </center>
+            <p class="font-gravity font-justified">
+                SEAD Fund grants are small grants for individuals or groups. Grants are typically <em>£100 - £250</em>.	We fund positive action, and campaigning. We look for proposals where the grant will have the most impact -- for example, helping a new campaign to get started, or funding a specific concrete action for a local community. We do not normally fund travel, e.g. to visit a conference. We promote social justice, with a current focus on the following areas: 
+                <ul>
+                    <li>climate justice</li>
+                    <li>inequality</li>
+                    <li>poverty</li>
+                    <li>women's rights</li>
+                    <li>young people and their global rights</li>
+                    <li>health justice</li>
+                </ul>
+            </p>
+        </div>
+        <div class="col-md-offset-2 col-md-4">
+            <center>
+                <img src="img/sun.svg" style="max-width: 3em;">
+                <h2>About</h2>
+            </center>
+            <center>
+                <p class="font-gravity">
+                    Founded in 1978, SEAD stands for Scottish Education and Action for Development. SEAD has two main aims:
+                </p>
+            </center>
+            <p class="font-gravity font-justified">
+                <ul>
+                    <li>
+                        To challenge the causes of poverty, social injustice and environmental degradation.
+                    </li>
+                    <li>
+                        To support the community-based movement for positive social change – people collectively tackling challenges which have both a local and global perspective.
+                    </li>
+                </ul>
+            </p>
+            <br>
+            <center>
+                <p class="font-gravity">
+                    Our work is based on the following principles:
+                </p>
+            </center>
+                <p class="font-gravity font-justified">
+                    <ul>
+                        <li>
+                            People-powered solutions
+                        </li>
+                        <li>
+                            A rootedness in mutual solidarity
+                        </li>
+                        <li>
+                            We can all learn from each other
+                        </li>
+                    </ul>
+                </p>
+                <center>
+                    <p>
+                        <a class="btn btn-default" href="http://www.sead.org.uk/about" role="button">Read more &raquo;</a>
+                    </p>
+                </center>
+        </div>
+    </div>
+
+    <!-- Cheap vertical space, you can increase or decrease it by changing the em level-->
+    <div class="white-bg col-xs-12" style="height:5em;">
+    </div>
+    <!-- End of cheap vertical space -->
+
+    <div class="col-md-12">
+        <div class="col-md-offset-4 col-md-4">
+            <center>
+                <img src="img/file.svg" style="max-width: 3em;">
+                <h2>How to Apply</h2>
+            </center>
+            <p>
+                <center>
+                    <form method="get" action="SEAD-Fund-application-form.docx">
+                        <button type="submit" class="btn btn-default">Download Form</button>
+                    </form>
+                </center>
+            </p>
+            <!-- TODO turn this docx form into an online form -->
+            <p class="font-gravity font-justified">
+                Thank you for your interest in the SEAD fund.  Please complete the form and send it as an attachment to the address specified.  We look forward to hearing about your projects and how you are going to change the world for the better.
+            </p>
+        </div>
+    </div>
+
+    <!-- Cheap vertical space, you can increase or decrease it by changing the em level-->
+    <div class="white-bg col-xs-12" style="height:10em;">
+    </div>
+    <!-- End of cheap vertical space -->
+
+    <hr width="50%" color="black">
+
+    <div class="col-md-12">
+        <div class="col-md-offset-3 col-md-6">
+            <footer>
+                <div class="linkbuttons">
+                    <center>
+                        <p class="font-gravity">
+                            Follow us on
+                        </p>
+                    </center>
+                    <br>
+                    <center>
+                        <a href='https://www.facebook.com/ScottishEducationandActionforDevelopment'><i class="fa fa-facebook-square fa-4x"></i></a>
+                        <a href='https://twitter.com/seadfeed'><i class="fa fa-twitter-square fa-4x"></i></a>
+                    </center>
+                </div>
+                <div class="footer">
+                    <center>
+                        <p class="font-gravity">
+                            &copy; 2017 <a href='http://www.sead.org.uk/'>SEAD (Scottish Education and Action for Development, a registered charity)</a>. Email: <span class='email' name='seadfund' domain='gmail.com'>seadfund (at) gmail.com</span>
+                            <br>
+                            Site design &amp; hosting: <a href='http://sogrow.co.uk'>SoGrow</a>/<a href='http://sodash.com'>SoDash</a>.
+                        </p>
+                    </center>
+                    <div class="small-footer-text">
+                        <center>
+                            <p class="font-gravity">
+                                Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> are licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                                <br>
+                                All images are used under the <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a> license
+                            </p>
+                        </center>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <!-- JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <img src='https://sead.soda.sh/trk' height='1' width='1'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="lib/jquery.min.js"><\/script>')</script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/lib/utils.js"></script>    
     <script src="js/sead.js"></script>    
   </body>

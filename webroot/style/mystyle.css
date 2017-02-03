@@ -23,18 +23,22 @@ body {
 }
 
 .jumbotron {
-	background: url(../img/green-bulb.png);
-	background-size: cover;
+	background: url(../img/green-bulb-sm-canvas.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
 	/*background-attachment: fixed;*/
-	min-height: 960px;
+	min-height: 97vh;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: white;
 }
 
 .jumbotron-logo {
-	max-width: 500px;
-	max-height: auto;
+	min-height: 4vh;
+	min-width: auto;
+	max-height: 10vh;
+	max-width: auto;
 }
 
 .jumbotron-container {
@@ -57,48 +61,18 @@ body {
         }
 }
 
-.no-bg-color {
-	background-color: transparent !important;
-}
-
-.navbar-bump-down {
-	top: 1em;
-}
-
-.bump-down {
-	top: 15em;
-}
-
-.border-left {
-	border-left: solid rgba(154, 154, 154, 0.44);
-}
-
-.border-right {
-	border-right: solid rgba(154, 154, 154, 0.44);
-}
-
-.border-top {
-	border-top: solid rgba(154, 154, 154, 0.44);
-}
-
-.btn-donate {
-	background-color: #f3f373;
-	margin-top: 10px !important;
-	padding-top: 5px !important;
-	padding-right: 5px !important;
-	padding-bottom: 5px !important;
-	padding-left: 5px !important;
-	font-family: 'Gobold';
-}
-
-.btn-donate:hover {
-	background-color: yellow !important;
-}
-
 .tagline {
 	font-family: 'Gobold';
-	top: 35em;
+	top: -10em;
 	color: black;
+	position: relative;
+	min-height: 0vh;
+}
+
+.tagline-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .arrow {
@@ -141,6 +115,46 @@ body {
 	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
 	40% {transform: translateY(-30%px);}
 	60% {transform: translateY(-15px);}
+}
+
+
+
+.no-bg-color {
+	background-color: transparent !important;
+}
+
+.navbar-bump-down {
+	top: 1em;
+}
+
+.bump-down {
+	top: 15em;
+}
+
+.border-left {
+	border-left: solid rgba(154, 154, 154, 0.44);
+}
+
+.border-right {
+	border-right: solid rgba(154, 154, 154, 0.44);
+}
+
+.border-top {
+	border-top: solid rgba(154, 154, 154, 0.44);
+}
+
+.btn-donate {
+	background-color: #f3f373;
+	margin-top: 10px !important;
+	padding-top: 5px !important;
+	padding-right: 5px !important;
+	padding-bottom: 5px !important;
+	padding-left: 5px !important;
+	font-family: 'Gobold';
+}
+
+.btn-donate:hover {
+	background-color: yellow !important;
 }
 
 .font-gravity {

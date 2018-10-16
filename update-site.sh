@@ -28,7 +28,7 @@ $SSHCOMMAND "cd /home/winterwell/jerbil && git pull origin master"
 $SSHCOMMAND "cd /home/winterwell/jerbil && git reset --hard FETCH_HEAD"
 
 echo -e "> Converting Markdown to HTML..."
-$SSHCOMMAND "cd /home/winterwell/jerbil/ && java -cp jerbil.jar:lib/* Jerbil $TARGETDIR"
+$SSHCOMMAND "cd /home/winterwell/jerbil/ && java -cp jerbil-all.jar:lib/* Jerbil $TARGETDIR"
 echo -e ""
 
 echo -e "$PROJECT Website has now been updated"

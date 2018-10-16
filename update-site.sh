@@ -15,11 +15,12 @@ echo -e "> Resetting Files to version held on github"
 $SSHCOMMAND "$GITSHORTHAND reset --hard FETCH_HEAD"
 echo -e ""
 
-echo -e "> Optimising Images..."
-$SSHCOMMAND "optipng $TARGETDIR/webroot/img/*.png"
-$SSHCOMMAND "jpegoptim $TARGETDIR/webroot/img/*.jpg"
-$SSHCOMMAND "jpegoptim $TARGETDIR/webroot/img/*.jpeg"
-echo -e ""
+# commented out for speed. uncomment when needed
+#echo -e "> Optimising Images..."
+#$SSHCOMMAND "optipng $TARGETDIR/webroot/img/*.png"
+#$SSHCOMMAND "jpegoptim $TARGETDIR/webroot/img/*.jpg"
+#$SSHCOMMAND "jpegoptim $TARGETDIR/webroot/img/*.jpeg"
+#echo -e ""
 
 echo -e "> Converting Markdown to HTML..."
 $SSHCOMMAND "cd /home/winterwell/jerbil/ && java -cp jerbil.jar:lib/* Jerbil $TARGETDIR"

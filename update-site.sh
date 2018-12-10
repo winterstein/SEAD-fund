@@ -22,13 +22,9 @@ echo -e ""
 #$SSHCOMMAND "jpegoptim $TARGETDIR/webroot/img/*.jpeg"
 #echo -e ""
 
-printf "\n\t> Getting latest jerbil updates...\n"
-$SSHCOMMAND "cd /home/winterwell/jerbil && git gc --prune=now"
-$SSHCOMMAND "cd /home/winterwell/jerbil && git pull origin master"
-$SSHCOMMAND "cd /home/winterwell/jerbil && git reset --hard FETCH_HEAD"
-
 echo -e "> Converting Markdown to HTML..."
-$SSHCOMMAND "cd /home/winterwell/jerbil/ && java -cp jerbil-all.jar:lib/* Jerbil $TARGETDIR"
-echo -e ""
+printf "\t> Converting Markdown to HTML...\n"
+$SSHCOMMAND "wget -cO - 'https://www.winterwell.com/software/downloads/jerbil-all.jar' >> $TARGETDIR/jerbil-all.jar"
+$SSHCOMMAND "cd $TARGETDIR && java -cp jerbil-all.jar Jerbil $TARGETDIR"
 
 echo -e "$PROJECT Website has now been updated"

@@ -146,14 +146,15 @@
 	<div class="col-md-12">
 		<div class="col-md-offset-3 col-md-6">
 			<center>
-				<form id='mailing-list' action='https://sead.soda.sh/forms-form.json' class='form-inline'>
-					<input type='hidden' name='link' value='back'>
-					<input type='hidden' name='mlist' value='news,seadfund'>
+				<form id="mailing-list" method="post" 
+					action="https://profiler.good-loop.com/form/sead.org.uk" role="form">
+					<input type='hidden' name='notify' value='daniel@good-loop.com' />
 					<div class='form-group'>
 						<label class='input-lg font-gravity'>Get email updates</label>
-						<input class='form-control input-lg font-gravity' type='email' name='email' placeholder='Your Email'>
+						<input class='form-control input-lg font-gravity' type='email' name='email' placeholder='Your Email'
+							required="required" data-error="Valid email is required.">
 					</div>
-					<button class="btn btn-primary btn-lg font-gravity" type='submit'>Sign up</button>
+					<button class="btn btn-primary btn-lg font-gravity" type='submit'>Sign up</button>		
 				</form>
 			</center>
 		</div>
@@ -290,7 +291,7 @@
 							&copy; 2017 <a href='http://www.sead.org.uk/'>SEAD (Scottish Education and Action for Development), registered
 								charity SC013867</a>. Email: <span class='email' name='seadfund' domain='gmail.com'>seadfund (at) gmail.com</span>
 							<br>
-							Site design &amp; hosting: <a href='http://sogrow.co.uk'>SoGrow</a>/<a href='http://sodash.com'>SoDash</a>.
+							Site design &amp; hosting: <a href='https://good-loop.com'>Good-Loop</a>/<a href='https://winterwell.com'>Winterwell</a>.
 						</p>
 					</center>
 					<div class="small-footer-text">

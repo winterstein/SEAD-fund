@@ -26,14 +26,14 @@ $(function(){
 		});
 		// optimistic response - stop repeat submits
 		let $btn = $('button[type=submit]', this);
-		$btn.text($btn.text()+' ...');
+		$btn.addClass("disabled").text($btn.text()+' ...');
 		e.preventDefault();
 	});
 	
 	function notify(msg, type) {
 		$('form#mailing-list').append("<div class='alert alert-"+(type||"success")+"' role='alert'>"+msg+"</div>");
 	}
-	
+
 });
 
 

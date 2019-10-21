@@ -19,14 +19,21 @@ $(function(){
 			data: data
 		}).then(function(r) {
 			console.log(r);
+			// assume OK
 			notify("Thank you for signing up to our mailing list.");
+		}, function(err) {
+			notify("There was an error: "+err, 'danger');
 		});
+		// optimistic response - stop repeat submits
+		let $btn = $('button[type=submit]', this);
+		$btn.text($btn.text()+' ...');
 		e.preventDefault();
 	});
 	
-	function notify(msg) {
-		$('form#mailing-list').append("<div class='alert alert-success' role='alert'>"+msg+"</div>");
+	function notify(msg, type) {
+		$('form#mailing-list').append("<div class='alert alert-"+(type||"success")+"' role='alert'>"+msg+"</div>");
 	}
+	
 });
 
 

@@ -4,7 +4,7 @@ SEAD funds a wide range of projects, from social-justice campaigns to grassroots
 
 We will periodically update this page with campaign reports.
 
-* [2018 Campaign Report](https://mailchi.mp/91e11c73d780/sead-fund-2018-report-supporting-grass-roots-projects-for-change)
+TODO copy projects from here [2018 Campaign Report](https://mailchi.mp/91e11c73d780/sead-fund-2018-report-supporting-grass-roots-projects-for-change)
 
 <section src='template-project.html'>
 name: SoGive Card-Shop-for-Good

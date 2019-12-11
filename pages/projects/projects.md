@@ -19,7 +19,7 @@ The Helen Bamber Foundation set up the Happy Baby Community to give asylum seeke
 
 
 <section src='template-project.html'>
-name: Girls Rock School Edinrbugh
+name: Girls Rock School Edinburgh
 tagline: 
 image: https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/2a5ee89a-cbe8-47a8-a126-5ea691beaa45.jpg
 location: Edinburgh, UK

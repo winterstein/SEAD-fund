@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="SEAD-Fund - Scottish charity for education, environmental action, and development">
+	<meta name="author" content="">
+	<link rel="icon" href="/img/green-bulb.png">
+
+	<title>$title</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">	
+	<!-- Custom styles for this template -->
+	<link href="style/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+<div class="container-fluid jumbotron-container">
+	<section src="navbar.html"></section>
+	<!-- Cheap vertical space, you can increase or decrease it by changing the em level-->
+	<div class="white-bg col-xs-12" style="height:2em;"></div>
+	<!-- End of cheap vertical space -->
+
+	$contents
+
+	<!-- The Signup Form -->
+	<form id="mailing-list" method="post" 
+		action="https://profiler.good-loop.com/form/sead.org.uk" role="form">
+		<input type='hidden' name='notify' value='daniel@good-loop.com' />
+		<div class='form-group'>
+			<label class='input-lg font-gravity'>Get email updates</label>
+			<input class='form-control input-lg font-gravity' type='email' name='email' placeholder='Your Email'
+				required="required" data-error="Valid email is required.">
+		</div>
+		<button class="btn btn-primary btn-lg font-gravity" type='submit'>Sign up</button>		
+	</form>
+
+	<!-- Cheap vertical space, you can increase or decrease it by changing the em level-->
+	<div class="white-bg col-xs-12" style="height:5em;"></div>
+	
+	<section src="footer.html"></section>
+</div>
+<!-- JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+<script src="js/lib/utils.js"></script>
+<script src="js/sead.js"></script>
+</body>
+
+</html>

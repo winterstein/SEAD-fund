@@ -11,12 +11,12 @@
 // .color-instagram {color:#e95950;}
 // .color-linkedin {color:#0077B5;}
 
-body {
-	padding-bottom: 70px;		
-}
-
-.navbar-brand img {
-	height: 50px;
+.navbar-brand {
+	max-width: 75%;
+	img {
+		max-height: 50px;
+		max-width: 75%;
+	}
 }
 
 .banner {
@@ -27,7 +27,35 @@ body {
 }
 .banner.green {
 	background-image: linear-gradient(to right, @green , @blue);
+	h2 {
+		margin: 50px;
+		color: white;
+	}
 }
 .banner.white-green {
 	background-image: linear-gradient(white, @green);
+}
+
+.project img.photo {
+	max-width: 100%;
+	max-height: 300px;
+}
+
+.roundel-row {
+	.area {
+		img {
+			max-width: 100%;			
+		}
+		.round {
+			border: solid 5px @green;
+		}
+		text-align: center;
+	}
+}
+.round {
+	border-radius: 50%;	
+}
+
+footer {
+	background: @green;
 }

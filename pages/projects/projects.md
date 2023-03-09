@@ -7,7 +7,7 @@ SEAD funds a wide range of projects, from social-justice campaigns to grassroots
 
 We will periodically update this page with campaign reports.
 
-<section src='template-project.html'>
+<section src='project.html'>
 name: Happy Baby Community
 tagline: 
 image: https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/159bbabe-232f-4ad0-8370-bd35d41d13ad.jpg
@@ -20,7 +20,7 @@ The Helen Bamber Foundation set up the Happy Baby Community to give asylum seeke
 </section>
 
 
-<section src='template-project.html'>
+<section src='project2.html'>
 name: Girls Rock School Edinburgh
 tagline: 
 image: https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/2a5ee89a-cbe8-47a8-a126-5ea691beaa45.jpg
@@ -36,8 +36,7 @@ the running of our next term! Can't wait to do more of this!!!"
 
 </section>
 
-
-<section src='template-project.html'>
+<section src='project.html'>
 name: J8
 tagline: 
 image: 
@@ -51,7 +50,7 @@ J8 now partner with seven communities around the world, working with their inter
 </section>
 
 
-<section src='template-project.html'>
+<section src='project2.html'>
 name: Suzanne Finlayson
 tagline: 
 image: https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/c1e57e0d-41cf-4198-a401-8e6f182c51f9.png
@@ -66,7 +65,7 @@ Suzanne didn't let this get in her way: as well as reaching out to SEAD, she put
 </section>
 
 
-<section src='template-project.html'>
+<section src='project.html'>
 name: Castle Douglas High School
 tagline: 
 image: 
@@ -80,7 +79,7 @@ Stigma towards mental health and LGBT issues can particularly hurt teenagers. It
 </section>
 
 
-<section src='template-project.html'>
+<section src='project2.html'>
 name: Friends of the Den
 tagline: 
 image: https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/90b87cd6-cabf-45ed-9385-a02426a037b7.png
@@ -92,7 +91,7 @@ The Den playpark in Aberdeenshire is already a much loved fixture in the lives o
 </section>
 
 
-<section src='template-project.html'>
+<section src='project.html'>
 name: Living Rent Glasgow
 tagline: 
 image: https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/8db7b4de-f0b3-4d39-82b0-afe8ee2f211c.jpg

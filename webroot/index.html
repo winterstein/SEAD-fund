@@ -14,7 +14,7 @@
 	<!-- Bootstrap core CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">	
 	<!-- Custom styles for this template -->
-	<link href="style/main.css" rel="stylesheet">
+	<link href="/style/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 <meta name='generator' content='Jerbil v1.2.5' />
 </head>
@@ -52,137 +52,201 @@
 	<!-- End of cheap vertical space -->
 
 	<div class='banner green row'>
-  <div class="col">
-    <h2>Support positive change,<br />locally and globally.</h2>
-  </div>
-  <div class="col">
-    <img src="/img/earthnobg.png" class="banner-bg" />
-  </div>
-</div>
-
-
-<div class='row m-3'>
-  <div class="col">
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/img/pexels-greta-hoffman-7728082.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/2a5ee89a-cbe8-47a8-a126-5ea691beaa45.jpg"
-            class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/159bbabe-232f-4ad0-8370-bd35d41d13ad.jpg"
-            class="d-block w-100" alt="...">
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Supporting positive change,<br />globally and locally.</h2>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="col">
+        <img src="/img/earthnobg.png" class="banner-bg" />
+      </div>
     </div>
   </div>
-  <div class="col">
-    The SEAD Fund invites small community groups and individuals to apply for funds to run or kick-start campaign
-    activity that engages with people, has a demonstrable impact, and aims to links local issues with those being
-    experienced by others around the world.
+</div>
+
+<div class="container">
+  <div class='row m-3'>
+    <div class="col-md-6">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/pexels-greta-hoffman-7728082.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/2a5ee89a-cbe8-47a8-a126-5ea691beaa45.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/159bbabe-232f-4ad0-8370-bd35d41d13ad.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-md-6">
+      The SEAD Fund invites small community groups and individuals to apply for funds to run or kick-start campaign
+      activity that engages with people, has a demonstrable impact, and aims to links local issues with those being
+      experienced by others around the world.
+    </div>
   </div>
 </div>
 
-<div class='banner white-green row'>
+<div class='banner white-green row d-flex'>
   <div class="col">
+    <center>
     <img src="/img/earthnobg.png" class="banner-bg" />
+  </center>
   </div>
   <div class="col">
-    <h2>Support positive change,<br />locally and globally.</h2>
+    <form id="mailing-list" method="post" 
+	action="https://profiler.good-loop.com/form/sead.org.uk" role="form">
+	<input type='hidden' name='notify' value='daniel@good-loop.com' />
+	<div class='form-group'>
+		<label class='input-lg font-gravity'>Get email updates</label>
+		<input class='form-control input-lg font-gravity' type='email' name='email' placeholder='Your Email'
+			required="required" data-error="Valid email is required.">
+	</div>
+	<button class="btn btn-primary btn-lg font-gravity" type='submit'>Sign up</button>		
+</form>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>What We Fund</h2>
+      <p>
+        SEAD Fund grants are small grants for individuals or groups. Grants are typically £100 - £250. We fund positive
+        action,
+        and campaigning. We look for proposals where the grant will have the most impact -- for example, helping a new
+        campaign
+        to get started, or funding a specific concrete action for a local community. We do not normally fund travel,
+        e.g.
+        to
+        visit a conference. We promote social justice, with a current focus on the following areas:
+      </p>
+      <ul>
+        <li>climate justice</li>
+        <li>inequality</li>
+        <li>poverty</li>
+        <li>women's rights</li>
+        <li>young people and their global rights</li>
+        <li>health justice</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row roundel-row">
+    <div class="col-4 col-md-2 area"><img src="/img/povertyroundel.png" class="round" />
+      Tackling Poverty</div>
+    <div class="col-4 col-md-2 area">
+      <img src="/img/climatejusticeroundel.png" alt="" class="round" />
+      Climate Justice
+    </div>
+    <div class="col-4 col-md-2 area">
+      <img src="/img/womensrightsroundel.png" alt="" class="round" />
+      Women's Rights
+    </div>
+    <div class="col-4 col-md-2 area">
+      <img src="/img/youngpeoplesrightsroundel.png" alt="" class="round" />
+      Young People
+    </div>
+    <div class="col-4 col-md-2 area">
+      <img src="/img/healthjusticeroundel.png" alt="" class="round" />
+      Health Justice
+    </div>
+    <div class="col-4 col-md-2 area d-flex flex-column justify-content-center">
+      <h3 class=""><a href="https://forms.monday.com/forms/2c79fe1e3b03498815c53217c50b0323?r=use1">Apply</a></h3>
+    </div>
   </div>
 </div>
 
-<h2>What We Fund</h2>
-
-SEAD Fund grants are small grants for individuals or groups. Grants are typically £100 - £250. We fund positive action,
-and campaigning. We look for proposals where the grant will have the most impact -- for example, helping a new campaign
-to get started, or funding a specific concrete action for a local community. We do not normally fund travel, e.g. to
-visit a conference. We promote social justice, with a current focus on the following areas:
-
-- climate justice
-- inequality
-- poverty
-- women's rights
-- young people and their global rights
-- health justice
-
-<h2>About</h2>
-
-Founded in 1978, SEAD stands for Scottish Education and Action for Development. SEAD has two main aims:
-
-1. To challenge the causes of poverty, social injustice and environmental degradation.
-2. To support the community-based movement for positive social change - people collectively tackling challenges which
-have both a local and global perspective.
-
-Our work is based on the following principles:
-
-- People-powered solutions.
-- Rooted in mutual solidarity.
-- We can all learn from each other.
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>About</h2>
+      <p>
+        Founded in 1978, SEAD stands for Scottish Education and Action for Development. SEAD has two main aims:
+      </p>
+      <ol>
+        <li>To challenge the causes of poverty, social injustice and environmental degradation.</li>
+        <li>To support the community-based movement for positive social change - people collectively tackling challenges
+          which have both a local and global perspective.</li>
+      </ol>
+    </div>
+    <div class="col-md-6">
+      <h2> </h2>
+      Our work is based on the following principles:
+      <ul>
+        <li>People-powered solutions.</li>
+        <li>Rooted in mutual solidarity.</li>
+        <li>We can all learn from each other.</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 	<!-- The Signup Form -->
 	<form id="mailing-list" method="post" 
-		action="https://profiler.good-loop.com/form/sead.org.uk" role="form">
-		<input type='hidden' name='notify' value='daniel@good-loop.com' />
-		<div class='form-group'>
-			<label class='input-lg font-gravity'>Get email updates</label>
-			<input class='form-control input-lg font-gravity' type='email' name='email' placeholder='Your Email'
-				required="required" data-error="Valid email is required.">
-		</div>
-		<button class="btn btn-primary btn-lg font-gravity" type='submit'>Sign up</button>		
-	</form>
+	action="https://profiler.good-loop.com/form/sead.org.uk" role="form">
+	<input type='hidden' name='notify' value='daniel@good-loop.com' />
+	<div class='form-group'>
+		<label class='input-lg font-gravity'>Get email updates</label>
+		<input class='form-control input-lg font-gravity' type='email' name='email' placeholder='Your Email'
+			required="required" data-error="Valid email is required.">
+	</div>
+	<button class="btn btn-primary btn-lg font-gravity" type='submit'>Sign up</button>		
+</form>
 
 	<!-- Cheap vertical space, you can increase or decrease it by changing the em level-->
-	<div class="white-bg col-xs-12" style="height:5em;"></div>
-	
-	<footer>
-	<div class="row">
-		<div class="col">
-			<div class="linkbuttons">
-				<center>
-					<div>Follow us on</div>
-					<a target="_new" href='https://www.facebook.com/ScottishEducationandActionforDevelopment'><i class="bi-facebook" style="font-size: 2rem;"></i></a>
-					<a target="_new" href='https://twitter.com/seadfeed'><i class="bi-twitter" style="font-size: 2rem;"></i></a>							
-				</center>
+	<div class="white-bg col-xs-12" style="height:5em;"></div>	
+</div>
+<footer class="w-100 p-4">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="linkbuttons">
+					<center>
+						<div>Follow us on</div>
+						<a target="_new" href='https://www.facebook.com/ScottishEducationandActionforDevelopment'><i
+								class="bi-facebook" style="font-size: 2rem;"></i></a>
+						<a target="_new" href='https://twitter.com/seadfeed'><i class="bi-twitter"
+								style="font-size: 2rem;"></i></a>
+					</center>
+				</div>
 			</div>
-		</div>
-		<div class="col">
-			<button type="button" class="btn btn-primary">Donate</button>
-		</div>
+			<div class="col">
+				<button type="button" class="btn btn-primary">Donate</button>
+			</div>
 
-		<center>
-			&copy; 2017-2023 SEAD (Scottish Education and Action for Development), registered
-			charity SC013867</a>. Email: <span class='email' name='seadfund' domain='gmail.com'>seadfund (at)
-				gmail.com</span>
-			<br>
-			Site design &amp; hosting: <a href='https://good-loop.com'>Good-Loop</a>.
-		</center>
+			<center>
+				&copy; 2017-2023 SEAD (Scottish Education and Action for Development), registered
+				charity SC013867</a>. Email: <span class='email' name='seadfund' domain='gmail.com'>seadfund (at)
+					gmail.com</span>
+				<br>
+				Site design &amp; hosting: <a href='https://good-loop.com'>Good-Loop</a>.
+			</center>
+		</div>
 	</div>
 </footer>
-</div>
 <!-- JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	crossorigin="anonymous"></script>
-<script src="js/lib/utils.js"></script>
-<script src="js/sead.js"></script>
+<script src="/js/lib/utils.js"></script>
+<script src="/js/sead.js"></script>
 </body>
 
 </html>

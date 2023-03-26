@@ -37,13 +37,14 @@
 				<li class="nav-item">
 					<a class="nav-link" href="/projects/projects.html">Projects</a>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link" href="https://forms.monday.com/forms/2c79fe1e3b03498815c53217c50b0323?r=use1">Apply</a>
-				</li>
+				</li> -->
 			</ul>
 			<a target="_new" href='https://www.facebook.com/ScottishEducationandActionforDevelopment'><i class="bi-facebook" style="font-size: 2rem;"></i></a>
-			<a target="_new" href='https://twitter.com/seadfeed'><i class="bi-twitter" style="font-size: 2rem;"></i></a>
-			<button type="button" class="btn btn-primary">Donate</button>
+			<a class="ms-2" target="_new" href='https://twitter.com/seadfeed'><i class="bi-twitter" style="font-size: 2rem;"></i></a>
+			<button type="button" class="ms-2 btn btn-primary">Donate</button>
+			<a href="https://forms.monday.com/forms/2c79fe1e3b03498815c53217c50b0323?r=use1" type="button" class="ms-2 btn btn-success">Apply</a>
 		</div>
 	</div>
 </nav>
@@ -58,7 +59,7 @@
         <h2>Supporting positive change,<br />globally and locally.</h2>
       </div>
       <div class="col">
-        <img src="/img/earthnobg.png" class="banner-bg" />
+        <img class="dyn-img banner-bg" data-src="/img/earthnobg.png" />
       </div>
     </div>
   </div>
@@ -95,7 +96,7 @@
         </button>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 p-3">
       The SEAD Fund invites small community groups and individuals to apply for funds to run or kick-start campaign
       activity that engages with people, has a demonstrable impact, and aims to links local issues with those being
       experienced by others around the world.
@@ -105,20 +106,24 @@
 
 <div class='banner white-green row d-flex'>
   <div class="col">
-    <center>
-    <img src="/img/earthnobg.png" class="banner-bg" />
-  </center>
+    <img class="translate-middle-x dyn-img banner-bg" data-src="/img/earthnobg.png" data-width="300" />
   </div>
-  <div class="col">
+  <div class="col mt-5">
     <form id="mailing-list" method="post" 
 	action="https://profiler.good-loop.com/form/sead.org.uk" role="form">
-	<input type='hidden' name='notify' value='daniel@good-loop.com' />
+	<label class='fs-4 me-3 text-light font-gravity text-end float-end'>Get email updates on<br/>our projects</label>
+	<div class="clearfix"></div>
 	<div class='form-group'>
-		<label class='input-lg font-gravity'>Get email updates</label>
-		<input class='form-control input-lg font-gravity' type='email' name='email' placeholder='Your Email'
-			required="required" data-error="Valid email is required.">
-	</div>
-	<button class="btn btn-primary btn-lg font-gravity" type='submit'>Sign up</button>		
+		<div class="row">
+			<div class="col-9">
+				<input class='form-control form-control-lg font-gravity' type='email' name='email' placeholder='Your Email'
+					required="required" data-error="Valid email is required.">
+			</div>
+			<div class="col-3">
+				<button class="btn btn-primary btn-lg border-light font-gravity" type='submit'>Sign up</button>			
+			</div>
+		</div>
+	</div>	
 </form>
   </div>
 </div>
@@ -127,30 +132,30 @@
     <div class="col-md-6">
       <h2>What We Fund</h2>
       <p>
-        SEAD Fund grants are small grants for individuals or groups. Grants are typically £100 - £250. We fund positive
+        SEAD provides small grants for individuals or groups. Grants are typically £250. We fund positive
         action,
         and campaigning. We look for proposals where the grant will have the most impact -- for example, helping a new
         campaign
         to get started, or funding a specific concrete action for a local community. We do not normally fund travel,
         e.g.
         to
-        visit a conference. We promote social justice, with a current focus on the following areas:
+        visit a conference. We promote social justice, with a focus on the following areas:
       </p>
-      <ul>
+      <!-- <ul>
         <li>climate justice</li>
         <li>inequality</li>
         <li>poverty</li>
         <li>women's rights</li>
         <li>young people and their global rights</li>
         <li>health justice</li>
-      </ul>
+      </ul> -->
     </div>
   </div>
   <div class="row roundel-row">
     <div class="col-4 col-md-2 area"><img src="/img/povertyroundel.png" class="round" />
       Tackling Poverty</div>
     <div class="col-4 col-md-2 area">
-      <img src="/img/climatejusticeroundel.png" alt="" class="round" />
+      <img class="dyn-img round" alt="Climate Justice" data-src="/img/climatejusticeroundel.png" data-width="100" />
       Climate Justice
     </div>
     <div class="col-4 col-md-2 area">
@@ -165,14 +170,20 @@
       <img src="/img/healthjusticeroundel.png" alt="" class="round" />
       Health Justice
     </div>
-    <div class="col-4 col-md-2 area d-flex flex-column justify-content-center">
-      <h3 class=""><a href="https://forms.monday.com/forms/2c79fe1e3b03498815c53217c50b0323?r=use1">Apply</a></h3>
-    </div>
   </div>
-</div>
-
+  <div class="row mt-5">
+    <div class="col-md-2"></div>
+    <div class="col-5 col-md-3 area d-flex flex-column justify-content-center">
+      <a class="btn btn-primary btn-lg" href="">Donate</a>
+    </div>
+    <div class="col-5 col-md-3 area d-flex flex-column justify-content-center">
+      <a class="btn btn-success btn-lg" href="https://forms.monday.com/forms/2c79fe1e3b03498815c53217c50b0323?r=use1">Apply</a>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div><!-- ./What We Fund -->
 <div class="container">
-  <div class="row">
+  <div class="row mt-5">
     <div class="col-md-6">
       <h2>About</h2>
       <p>
@@ -185,7 +196,7 @@
       </ol>
     </div>
     <div class="col-md-6">
-      <h2> </h2>
+      <h2>&nbsp;</h2>
       Our work is based on the following principles:
       <ul>
         <li>People-powered solutions.</li>
@@ -195,18 +206,6 @@
     </div>
   </div>
 </div>
-
-	<!-- The Signup Form -->
-	<form id="mailing-list" method="post" 
-	action="https://profiler.good-loop.com/form/sead.org.uk" role="form">
-	<input type='hidden' name='notify' value='daniel@good-loop.com' />
-	<div class='form-group'>
-		<label class='input-lg font-gravity'>Get email updates</label>
-		<input class='form-control input-lg font-gravity' type='email' name='email' placeholder='Your Email'
-			required="required" data-error="Valid email is required.">
-	</div>
-	<button class="btn btn-primary btn-lg font-gravity" type='submit'>Sign up</button>		
-</form>
 
 	<!-- Cheap vertical space, you can increase or decrease it by changing the em level-->
 	<div class="white-bg col-xs-12" style="height:5em;"></div>	
@@ -247,6 +246,7 @@
 	crossorigin="anonymous"></script>
 <script src="/js/lib/utils.js"></script>
 <script src="/js/sead.js"></script>
+<script src="/js/dynimg.js"></script>
 </body>
 
 </html>

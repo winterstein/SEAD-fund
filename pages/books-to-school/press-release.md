@@ -50,7 +50,7 @@ Participation is optional, and is open to all tourists. The program has started 
  <div class='col'>
 
 **SEAD-Fund Charity**    
-Website: [sead.org.uk](https://sead.org.uk)      
+Website: [sead.org.uk](https://bit.ly/3zOxU5e)      
 HQ: Edinburgh, Scotland    
 Contact: Daniel Winterstein, Chair   
 Phone: +44 772 5172 612   
@@ -59,7 +59,7 @@ Email: <span class='email' name='daniel.winterstein' domain='gmail.com'>daniel.w
 </div><div class='col'>
 
 **Fahari Safari**   
-Website: [faharisafari.com](https://faharisafari.com)    
+Website: [faharisafari.com](https://bit.ly/3Y2tjqz)    
 HQ: Arusha, Tanzania   
 Contact: Jesse Thomas, Director   
 Phone: +255 767 609 472   

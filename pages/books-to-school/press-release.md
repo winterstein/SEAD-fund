@@ -33,7 +33,7 @@ These books are invaluable, helping to teach English with a dose of joy, and fos
 
 > Participating in the *Books to School* program is simple: Just pack a few English-language children's books in your luggage. Our team will deliver the books to local schools in need.
 
-By participating, tourists will contribute to the local community, leaving a positive and lasting impact from your safari experience. This initiative is a unique opportunity to make a difference, one book at a time.
+By participating, tourists will contribute to the local community, leaving a positive and lasting impact from your safari experience. This initiative is an opportunity to easily make a real difference, one book at a time.
 
 Think of your favourite childhood book. Now imagine the joy of sharing that book with a child who has never had the chance to read it -- a child who might never have read any children's books, only textbooks. This is the magic of the *Books to School* program.
 

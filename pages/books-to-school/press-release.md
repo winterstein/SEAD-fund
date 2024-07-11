@@ -1,3 +1,16 @@
+
+
+<!-- For Facebook -->
+<!-- <meta property="og:title" content="" /> -->
+<meta property="og:type" content="article" />
+<meta property="og:image" content="/img/books-to-school/2-kids-reading.jpg" />
+<!-- <meta property="og:description" content="" /> -->
+<!-- For Twitter -->
+<!-- <meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="" />
+<meta name="twitter:description" content="" /> -->
+<meta name="twitter:image" content="/img/books-to-school/2-kids-reading.jpg" />
+
 <div class="main container">
 
 # Press Release: SEAD-Fund and Fahari Safari Launch "Books to School" Program

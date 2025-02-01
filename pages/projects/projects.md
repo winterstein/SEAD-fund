@@ -29,7 +29,7 @@ The first Books to School mini library was opened this month at Arusha Victory S
 <section src='project.html'>
 name: Happy Baby Community
 tagline: 
-image: https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/159bbabe-232f-4ad0-8370-bd35d41d13ad.jpg
+image: /img/projects/happy-baby.jpg
 location: UK 
 website: https://www.ourmala.com/happy-baby-community/
 

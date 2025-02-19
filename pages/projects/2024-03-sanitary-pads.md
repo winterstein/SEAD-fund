@@ -1,5 +1,3 @@
-2024-01	Sanitary Pad project
-
 <section src='project2.html'>
 name: Reusable sanitary pads
 tagline: Teaching school girls to make reusable sanitary pads -- for health and education

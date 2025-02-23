@@ -7,7 +7,7 @@ Dear Members and Supporters,
 
 Our commitment to tackling poverty, promoting education, fostering environmental sustainability, and standing against injustice is more important now than ever. Thanks to the support of our members, donors, volunteers, and trustees, SEAD has successfully implemented a diverse range of projects across Scotland and internationally.
 
-This year we awarded **15 micro-grants**, supporting grassroots initiatives that are making a real difference in their communities. From educational programs and environmental projects to campaigns advocating for human rights, our reach and impact has been significant. By empowering individuals and organizations, we are collectively achieving more than we ever could alone.
+This year we awarded **15 micro-grants**, supporting grassroots initiatives that are making a real difference in their communities. From educational programs and environmental projects to campaigns advocating for human rights, our reach and impact has been significant. Below, you'll ??. By empowering individuals and organizations, we are collectively achieving more than we ever could alone.
 
 Looking forward, we aim to strengthen our grant-making processes, grow the SEAD-Fund, and enhance member engagement. Thank you for being part of our work for positive change.  
 
@@ -53,8 +53,8 @@ SEAD’s objectives are to:
 > *"The training has boosted the confidence of the girls. They now approach me freely for help, and I can pass on the skills to future students."*  
 > — Ms. Among Cathy, Senior Woman Teacher, Mwanga Secondary School
 
-- **Dyslexia Pens (Scotland)**: Supported The Haven Learning in providing dyslexia support to students, enhancing learning experiences.
  - **ADHD Adventures (Scotland)**: ADHD Adventures is a new project, aimed at offering outdoor activities and engagement for individuals with ADHD, fostering inclusion and personal development​.
+- **Dyslexia Support (Scotland)**: Supported The Haven Learning in providing dyslexia support to students.
  - **Haus of Seisay Hairdressing Academy (Scotland)**: Haus of Seisay is a hair-dressers with a difference - their Hairdressing Academy is an initiative empowering care-experienced young people with skills in hairdressing, building their confidence, and creating career opportunities​.
 
 ### 2. Environmental and Community Wellbeing Projects
@@ -64,6 +64,10 @@ SEAD’s objectives are to:
   - **Eat Sleep Ride CIC (Scotland)**: Developed an accessible garden for young people despite challenging weather.  
   - **Community House Alloa**: Transformed a children’s play area into a vibrant garden, encouraging outdoor learning.  
   - **Women’s Aid Orkney**: Established a gardening group to support women affected by domestic abuse, fostering community and self-sufficiency.  
+
+> "The garden is more than plants—it’s a place to heal, laugh, and reconnect with ourselves."
+> — Women’s Aid Orkney participant
+
 - **Forest Activity Day (Scotland)**: Hosted a nature immersion day for children and families, promoting environmental stewardship.  
 
 ### 3. Human Rights and Advocacy Efforts
@@ -73,6 +77,8 @@ SEAD’s objectives are to:
 > — International Women’s Group member
 
 - **LGBTQ+ Rights Protest (Uganda)**: Funded Mbarara RISE Foundation’s peaceful protest against anti-LGBT+ legislation, advocating for equality and safety.  
+
+> "Marching through Mbarara, we chanted for equality. It was dangerous, but SEAD’s support gave us the courage to stand up for our rights."
 
 ### 4. Climate and Sustainability
 - **Stop Climate Chaos Scotland (SCCS)**: SEAD continued its active membership, supporting initiatives to improve Scotland’s environmental policies.  

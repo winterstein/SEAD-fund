@@ -21,6 +21,8 @@ pads.
 
 <img src="/img/projects/2024-nurture-abato-2.jpg" />
 
+<div style="display:none">
+
 ## PROJECT OBJECTIVES AND OUTCOMES
 
 ### Objectives
@@ -129,6 +131,8 @@ ACKNOWLEDGMENTS:
 
 We extend our heartfelt gratitude to SEAD Fund UK for their generous support and
 commitment to improving the lives of rural children in Wakiso District, Uganda.
+
+</div>
 
 </section>
 

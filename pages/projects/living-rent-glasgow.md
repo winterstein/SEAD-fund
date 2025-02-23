@@ -1,7 +1,7 @@
 <section src='project.html'>
 name: Living Rent Glasgow
 tagline: 
-image: https://gallery.mailchimp.com/95150cdd2dcdd394f6ffa82fb/images/8db7b4de-f0b3-4d39-82b0-afe8ee2f211c.jpg
+image: /img/projects/living-rent-agm.jpg
 locaiton: Glasgow, Scotland
 website: https://www.livingrent.org/
 

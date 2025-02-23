@@ -4,3 +4,4 @@ boblog
 main.css
 webroot/*.html
 webroot/projects/*.html
+webroot/projects

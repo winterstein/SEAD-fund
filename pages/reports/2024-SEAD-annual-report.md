@@ -69,6 +69,7 @@ SEAD’s objectives are to:
 > — Women’s Aid Orkney participant
 
 - **Forest Activity Day (Scotland)**: Hosted a nature immersion day for children and families, promoting environmental stewardship.  
+- **Stop Climate Chaos Scotland (SCCS)**: SEAD continued its active membership, supporting initiatives to improve Scotland’s environmental policies.  
 
 ### 3. Human Rights and Advocacy Efforts
 - **Campaigning for Palestine (Scotland)**: Supported International Women’s Group’s advocacy, enabling discussions with policymakers and community education.  
@@ -79,9 +80,6 @@ SEAD’s objectives are to:
 - **LGBTQ+ Rights Protest (Uganda)**: Funded Mbarara RISE Foundation’s peaceful protest against anti-LGBT+ legislation, advocating for equality and safety.  
 
 > "Marching through Mbarara, we chanted for equality. It was dangerous, but SEAD’s support gave us the courage to stand up for our rights."
-
-### 4. Climate and Sustainability
-- **Stop Climate Chaos Scotland (SCCS)**: SEAD continued its active membership, supporting initiatives to improve Scotland’s environmental policies.  
 
 ---
 

@@ -1,5 +1,5 @@
 <section src='project2.html'>
-name: Solar lights to help families in rural African
+name: Solar lights to help families in rural Africa
 tagline: 
 image: /img/projects/2024-nurture-abato-1.jpg
 location: Uganda, Africa

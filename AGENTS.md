@@ -33,5 +33,7 @@ Body text here...
 
 ## Editing tips
 - Add a new project: create `pages/projects/YYYY-MM-slug.md` using the section format above, add image to `webroot/img/projects/`
+  - Then add a `<section src='YYYY-MM-slug.md'></section>` line at the top of the list in `pages/projects/projects.md` (projects are listed explicitly, newest first, so unfinished stubs can be left out)
+  - Leave `website:` blank if there is none; CSS hides the empty link
 - CSS changes: edit `style/main.less`, not the compiled CSS in `webroot/`
 - The site uses Bootstrap 5.3 + Bootstrap Icons

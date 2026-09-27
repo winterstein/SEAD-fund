@@ -1,6 +1,3 @@
-2024	Kanyakwar
-2024-10	Kanyakwar
-
 <section src='project2.html'>
 name: Sanitary Pads for Schools
 tagline: 

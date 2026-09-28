@@ -1,3 +1,3 @@
 # The sead.org.uk website
 
-<https://sead.org.uk>
+[sead.org.uk](https://sead.org.uk)

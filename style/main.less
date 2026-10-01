@@ -15,8 +15,8 @@ h2 {
 	margin-top: 3rem;
 	margin-bottom: 1rem;
 }
-.bi-twitter {
-	color: #4099ff;
+.bi-twitter-x {
+	color: #000;
 }
 .bi-facebook {
 	color:#3b5998;
@@ -107,4 +107,23 @@ footer {
 		max-width: 90%;
 		max-height: 300px;
 	}	
+}
+
+// Jerbil has no conditionals, so hide the link when a project has no website
+.project-website[href=""], .project-website[href="$website"] {
+	display: none;
+}
+.project-donate {
+	margin-top: 1rem;
+	padding: 0.75rem 1rem;
+	border-left: solid 4px @green;
+	background: #f3faef;
+}
+.donate-banner {
+	margin: 1.5rem 0;
+	padding: 1rem 1.5rem;
+	border-radius: 0.5rem;
+	background-image: linear-gradient(to right, @green, @blue);
+	color: white;
+	font-size: 1.15rem;
 }

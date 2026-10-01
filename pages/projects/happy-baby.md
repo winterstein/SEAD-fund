@@ -2,7 +2,8 @@
 name: Happy Baby Community
 tagline: 
 image: /img/projects/happy-baby.jpg
-location: UK 
+location: UK
+website: 
 
 Hundreds of pregnant women seek asylum in the UK every year, making a new life in the UK with a baby in tow. Adjusting to motherhood while cut off from their support network, dealing with after effects of violence and abuse, as well as coping with discrimination and poverty, leaves many women in a desperate situation.
 

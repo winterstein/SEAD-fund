@@ -83,12 +83,12 @@ All our safaris also have a positive impact. They provide park fees to the Seren
 </div><div class="col">
 
 <section src='photo.html'>
-src: /img/books-to-school/bookcase.jpg
+src: /img/books-to-school/bookcase.resized.jpg
 caption: A mini-library created by Books to School.
 </section>
 
 <section src='photo.html'>
-src: /img/books-to-school/reading.jpg
+src: /img/books-to-school/reading.resized.jpg
 caption: Reading Julia Donaldson in an Tanzanian primary school.
 </section>
 

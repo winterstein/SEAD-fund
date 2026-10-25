@@ -1,7 +1,7 @@
 <section src='project2.html'>
 name: Reusable sanitary pads
 tagline: Teaching school girls to make reusable sanitary pads -- for health and education
-image: /img/projects/2024-01-sanitary-pads-1.jpg
+image: /img/projects/2024-01-sanitary-pads-1.resized.jpg
 location: Uganda
 website: https://www.enventureenterprises.org/
 organisation: Uplifting Rural Communities (URUCO)

@@ -1,0 +1,32 @@
+map $sent_http_content_type $expires {
+        default                         off;
+        text/html                       epoch;
+        text/css                        epoch;
+        application/javascript          epoch;
+        ~image/                         epoch;
+}
+
+server {
+        listen  80;
+        listen   [::]:80;
+        server_name www.sead.org.uk;
+        rewrite ^ https://sead.org.uk$request_uri? permanent;
+}
+server {
+        listen 80;
+        listen [::]:80;
+        server_name sead.org.uk;
+
+        expires $expires;
+
+        root            /home/winterwell/SEAD-fund/webroot;
+        index           index.html index.htm;
+        access_log      /var/log/nginx/sead.org.uk/access.log;
+        error_log       /var/log/nginx/sead.org.uk/error.log;
+
+        add_header X-Frame-Options SAMEORIGIN always;
+
+        location / {
+                autoindex       on;
+        }
+}

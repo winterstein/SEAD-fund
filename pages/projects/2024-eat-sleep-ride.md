@@ -1,7 +1,7 @@
 <section src='project2.html'>
 name: Community Garden
 tagline: 
-image: /img/projects/2024-eat-sleep-ride-1.jpg
+image: /img/projects/2024-eat-sleep-ride-1.resized.jpg
 location: 
 website: 
 organisation: Eat Sleep Ride CIC

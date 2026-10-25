@@ -1,7 +1,7 @@
 <section src='project2.html'>
 name: Friends of the Den
 tagline: 
-image: /img/projects/friends-of-the-den.jpg
+image: /img/projects/friends-of-the-den.resized.jpg
 location: Aberdeenshire, Scotland
 website: https://www.facebook.com/friendsoftheden/
 

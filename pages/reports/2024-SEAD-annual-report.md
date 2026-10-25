@@ -62,7 +62,7 @@ SEAD's objectives are to:
 
 ---
 
-<img src="/img/projects/2024-01-sanitary-pads-1.jpg" alt="Reusable sanitary pads project" style="max-width:100%; max-height:300px;" />
+<img src="/img/projects/2024-01-sanitary-pads-1.resized.jpg" alt="Reusable sanitary pads project" style="max-width:100%; max-height:300px;" />
 
 **Reusable Sanitary Pads Projects**:
 - **Kenya**: Funded sanitary products and menstrual health education for 300 girls, reducing absenteeism and promoting hygiene.
@@ -82,7 +82,7 @@ SEAD's objectives are to:
 
 ---
 
-<img src="/img/projects/2024-seisay-2.jpg" alt="Haus of Seisay Hairdressing Academy" style="max-width:100%; max-height:300px;" />
+<img src="/img/projects/2024-seisay-2.resized.jpg" alt="Haus of Seisay Hairdressing Academy" style="max-width:100%; max-height:300px;" />
 
 **Haus of Seisay Hairdressing Academy (Scotland)**: Haus of Seisay is a hairdresser with a difference - their Hairdressing Academy empowers care-experienced young people with skills in hairdressing, building their confidence and creating career opportunities.
 
@@ -92,13 +92,13 @@ SEAD's objectives are to:
 
 2024 was the year of community gardens. The SEAD-Fund supported four projects creating and nurturing green spaces for Scottish communities.
 
-<img src="/img/projects/2024-better-together-garden-1.jpg" alt="Getting Better Together community garden, Shotts" style="max-width:100%; max-height:300px;" />
+<img src="/img/projects/2024-better-together-garden-1.resized.jpg" alt="Getting Better Together community garden, Shotts" style="max-width:100%; max-height:300px;" />
 
 **Getting Better Together (Scotland)**: Revitalised community gardens in Shotts, hosting workshops that engaged all age groups and promoted biodiversity.
 
 ---
 
-<img src="/img/projects/2024-eat-sleep-ride-1.jpg" alt="Eat Sleep Ride garden" style="max-width:100%; max-height:300px;" />
+<img src="/img/projects/2024-eat-sleep-ride-1.resized.jpg" alt="Eat Sleep Ride garden" style="max-width:100%; max-height:300px;" />
 
 **Eat Sleep Ride CIC (Scotland)**: Developed an accessible garden for young people despite challenging weather.
 
@@ -137,14 +137,6 @@ SEAD's objectives are to:
 
 > *"We feel more empowered and more confident in responding to conflict affecting our community."*
 > — International Women's Group member
-
----
-
-<img src="/img/projects/2024-mbarara.jpg" alt="Mbarara RISE Foundation protest, Uganda" style="max-width:100%; max-height:300px;" />
-
-**LGBTQ+ Rights Protest (Uganda)**: Funded Mbarara RISE Foundation's peaceful protest against anti-LGBT+ legislation, advocating for equality and safety.
-
-> *"Marching through Mbarara, we chanted for equality. It was dangerous, but SEAD's support gave us the courage to stand up for our rights."*
 
 ---
 

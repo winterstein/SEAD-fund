@@ -1,7 +1,7 @@
 <section src='project.html'>
 name: Haus of Seisay Hairdressing Academy Programme
 tagline: 
-image: /img/projects/2024-seisay-2.jpg
+image: /img/projects/2024-seisay-2.resized.jpg
 location: Glasgow, Scotland
 website: https://hausofseisay.org/
 organisation: Haus of Seisay

@@ -14,7 +14,6 @@ SEAD funds a wide range of projects, from social-justice campaigns to grassroots
 	unfinished stubs can be left out. Add new projects at the top. -->
 
 <section src='2024-07-books-to-school.md'></section>
-<section src='2024-04-mbarara.md'></section>
 <section src='2024-03-sanitary-pads.md'></section>
 <section src='2024-03-haus-of-seisay.md'></section>
 <section src='2024-01-getting-better-together.md'></section>

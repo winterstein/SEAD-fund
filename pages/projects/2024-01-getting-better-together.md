@@ -1,7 +1,7 @@
 <section src='project2.html'>
 name: Getting Better Together: Community garden
 tagline: 
-image: /img/projects/2024-better-together-garden-2.jpg
+image: /img/projects/2024-better-together-garden-2.resized.jpg
 location: Shotts, Lanarkshire, Scotland
 website: http://www.shottshealthyliving.com/
 
@@ -13,7 +13,7 @@ Our neighbourhood network group played an active role, promoting community spiri
 
 This project has brought many benefits to the community. It has sparked a growing interest in food cultivation and environmental workshops, fostering a sense of achievement, ownership, and community spirit among participants. By engaging people of all ages and abilities, the project continues to enhance community connections, support wellbeing, and contribute to local ecological conservation.
 
-<img src="/img/projects/2024-better-together-garden-1.jpg" alt="Better Together: Community garden produce" >
+<img src="/img/projects/2024-better-together-garden-1.resized.jpg" alt="Better Together: Community garden produce" >
 
 </section>
 

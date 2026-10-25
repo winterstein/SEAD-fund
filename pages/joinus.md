@@ -8,4 +8,4 @@ Time commitment: Under 1 day a month
 
 Where: Edinburgh (remote is also possible)
 
-Interested? Contact us <span class='email' name='daniel' domain='good-loop.com' >daniel at good-loop.com</span>.
+Interested? Contact us <span class='email' name='seadcharity' domain='gmail.com' >SEADcharity gmail</span>.

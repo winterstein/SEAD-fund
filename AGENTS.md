@@ -26,6 +26,10 @@ Body text here...
 </section>
 ```
 
+## Images
+
+For photos to illustrate projects, or files over 200k, prefer using resized smaller images in webpages to original full-size images.
+
 ## Deployment
 - Server: `aberdeen` 65.109.140.6, user `winterwell`
 - GitHub Actions workflow (`jerbil-gh-pages.yml`) deploys on push to `main`

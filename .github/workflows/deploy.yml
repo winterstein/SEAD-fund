@@ -1,0 +1,82 @@
+# Build the site with Jerbil and deploy it to the aberdeen server.
+#
+# Required repository secrets (Settings > Secrets and variables > Actions):
+#   DEPLOY_SSH_KEY      private key whose public half is in ~winterwell/.ssh/authorized_keys on aberdeen
+#   DEPLOY_KNOWN_HOSTS  output of: ssh-keyscan 65.109.140.6
+name: Deploy to aberdeen
+
+on:
+  push:
+    branches: ["master"]
+  # Allows a manual run from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One deploy at a time; let a running deploy finish rather than cancelling it half-way
+concurrency:
+  group: deploy-aberdeen
+  cancel-in-progress: false
+
+env:
+  DEPLOY_HOST: 65.109.140.6
+  DEPLOY_USER: winterwell
+  DEPLOY_PATH: /home/winterwell/SEAD-fund/webroot/
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install the LESS compiler
+        run: npm install -g less
+
+      - name: Download Jerbil
+        run: wget -nv https://www.winterwell.com/software/jerbil-all.jar
+
+      - name: Build the site
+        # The flags override config/enchantedtray.properties, which would otherwise
+        # start the preview server and never exit.
+        run: java -jar jerbil-all.jar -exit true -server false -preview false -editor false
+
+      - name: Check the build
+        run: |
+          test -s webroot/index.html
+          test -s webroot/projects/projects.html
+          test -s webroot/style/main.css
+
+      - name: Set up SSH
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          if [ -z "$DEPLOY_SSH_KEY" ] || [ -z "$DEPLOY_KNOWN_HOSTS" ]; then
+            echo "::error::Set the DEPLOY_SSH_KEY and DEPLOY_KNOWN_HOSTS repository secrets"
+            exit 1
+          fi
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+
+      - name: Copy webroot to the server
+        # --delete makes the server an exact mirror of the build: anything in the
+        # server's webroot that is not in the repo / build output is removed.
+        run: |
+          rsync -rltz --delete --itemize-changes \
+            -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes" \
+            webroot/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH"
+
+      - name: Remove the key
+        if: always()
+        run: rm -f ~/.ssh/deploy_key

@@ -32,7 +32,8 @@ For photos to illustrate projects, or files over 200k, prefer using resized smal
 
 ## Deployment
 - Server: `aberdeen` 65.109.140.6, user `winterwell`
-- GitHub Actions workflow (`jerbil-gh-pages.yml`) deploys on push to `main`
+- GitHub Actions workflow (`.github/workflows/deploy.yml`) builds with Jerbil and rsyncs `webroot/` to the server on push to `master`
+  - Needs repository secrets `DEPLOY_SSH_KEY` and `DEPLOY_KNOWN_HOSTS`
 - Nginx config: `config/sead.org.uk.nginx`
 
 ## Editing tips

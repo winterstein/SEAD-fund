@@ -27,7 +27,7 @@ caption: Children reading books from the program.
 <div class='row'>
 <div class='col'>
 
-Arusha, Tanzania – SEAD-Fund, in collaboration with Fahari Safari, is proud to announce the launch of the "Books to School" program. This initiative invites safari guests to bring along second-hand children's books to donate, helping to create and grow school libraries in Tanzania, where many children have no access to such resources.
+Arusha, Tanzania &ndash; SEAD-Fund, in collaboration with Fahari Safari, is proud to announce the launch of the "Books to School" program. This initiative invites safari guests to bring along second-hand children's books to donate, helping to create and grow school libraries in Tanzania, where many children have no access to such resources.
 
 These books are invaluable, helping to teach English with a dose of joy, and fostering a lifelong love for reading. 
 
@@ -35,7 +35,7 @@ These books are invaluable, helping to teach English with a dose of joy, and fos
 
 By participating, tourists will contribute to the local community, leaving a positive and lasting impact from your safari experience. This initiative is an opportunity to easily make a real difference, one book at a time.
 
-Think of your favourite childhood book. Now imagine the joy of sharing that book with a child who has never had the chance to read it -- a child who might never have read any children's books, only textbooks. This is the magic of the *Books to School* program.
+Think of your favourite childhood book. Now imagine the joy of sharing that book with a child who has never had the chance to read it &ndash; a child who might never have read any children's books, only textbooks. This is the magic of the *Books to School* program.
 
 The "Books to School" program was established through the joint efforts of Fahari Safari and the SEAD-Fund charity. Together, we aim to bring joy and educational resources to children in Tanzania, enriching their learning environments and their lives.
 

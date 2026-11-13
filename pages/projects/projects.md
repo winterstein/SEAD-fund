@@ -3,10 +3,12 @@ location:
 
 <div class="container">
 
-SEAD funds a wide range of projects, from social-justice campaigns to grassroots economic activity. Here are some of the people and groups your donations have supported – newest first.
+# Projects
+
+SEAD funds a wide range of projects, from social-justice campaigns to grassroots economic activity. Here are some of the people and groups your donations have supported &ndash; newest first.
 
 <div class="donate-banner d-flex flex-wrap align-items-center justify-content-between">
-<span>A typical SEAD grant is £250 – enough to kick-start a community project.</span>
+<span>A typical SEAD grant is £250 &ndash; enough to kick-start a community project.</span>
 <a class="btn btn-light btn-lg mt-2 mt-md-0" href="https://donorbox.org/donate-to-sead?default_interval=m">Donate</a>
 </div>
 

@@ -10,7 +10,7 @@ SEAD-Fund, in collaboration with Fahari Safari, is proud to announce the launch 
 
 > If you visit Arusha in Tanzania, then participating in the *Books to School* program is simple: Just pack a few English-language children's books in your luggage. Our team can deliver the books to local schools in need.
 
-Think of your favourite childhood book. Now imagine the joy of sharing that book with a child who has never had the chance to read it -- a child who might never have read any children's books, only textbooks. This is the magic of the *Books to School* program.
+Think of your favourite childhood book. Now imagine the joy of sharing that book with a child who has never had the chance to read it &ndash; a child who might never have read any children's books, only textbooks. This is the magic of the *Books to School* program.
 
 The first Books to School mini library was opened this month at Arusha Victory School, a primary school in Tanzania.
 

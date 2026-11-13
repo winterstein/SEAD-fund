@@ -1,11 +1,12 @@
-title: Join Us
+title: Join SEAD Fund
+
+# Join us
 
 The SEAD Fund provides micro-grants to community groups and individuals to kick-start campaign activity that engages with people, has a demonstrable impact, and aims to link local issues with those being experienced by others around the world.
 
 We are looking for board members to help promote the charity and evaluate grant applications.
 
-Time commitment: Under 1 day a month
+- **Time commitment:** under 1 day a month
+- **Where:** Edinburgh (remote is also possible)
 
-Where: Edinburgh (remote is also possible)
-
-Interested? Contact us <span class='email' name='seadcharity' domain='gmail.com' >SEADcharity gmail</span>.
+Interested? Contact us at <span class='email' name='seadcharity' domain='gmail.com'>seadcharity (at) gmail.com</span>.

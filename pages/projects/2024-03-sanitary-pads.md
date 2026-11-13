@@ -1,6 +1,6 @@
 <section src='project2.html'>
 name: Reusable sanitary pads
-tagline: Teaching school girls to make reusable sanitary pads -- for health and education
+tagline: Teaching school girls to make reusable sanitary pads &ndash; for health and education
 image: /img/projects/2024-01-sanitary-pads-1.resized.jpg
 location: Uganda
 website: https://www.enventureenterprises.org/
@@ -9,10 +9,10 @@ organisation: Uplifting Rural Communities (URUCO)
 Uplifting Rural Communities (URUCO) is a community based organization located in Nampunge village, Kakiri Sub County, Wakiso district, Uganda. URUCO received a grant of £250 from Sead fund to implement a project on educating young adolescent girls how to make reusable sanitary pads and menstrual hygiene at Mwanga Secondary School.
 
 > "My name is Odoi Anne, I am in form two and am 14 years old. I have been using dry animal skin specifically goat skin as a sanitary pad though it has been very uncomfortable and unhygienic for me. My parents couldn’t afford buying pads for me but because of Sead fund’s love for the unprivileged people like me, I am now able to make my own re-usable sanitary pads that can last me a full year. Thank you Sead fund for working with Uplifting Rural Communities to improve people’s lives."
-> -- Odoi Anne, student
+> &mdash; Odoi Anne, student
 
 > "On behalf of Uplifting Rural Communities, I would like to extend our sincere appreciation to the entire Sead fund family for giving us an opportunity to improve the lives of neglected people in Nampunge village. Thank you for giving us this opportunity to implement this project because it has greatly improved the young female adolescent girls’ lives."
-> -- Nanyonjo Yvonne, Chairperson
+> &mdash; Nanyonjo Yvonne, Chairperson
 
 <div style="display:none">
 
